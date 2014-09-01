@@ -6,10 +6,19 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'techlivezheng/vim-plugin-minibufexpl'
-Plugin 'valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'techlivezheng/vim-plugin-minibufexpl'
+
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'wookiehangover/jshint.vim'
+
+Plugin 'digitaltoad/vim-jade'
+
+Plugin 'valloric/YouCompleteMe'
+Plugin 'marijnh/tern_for_vim'
+
 
 call vundle#end()            " required
 filetype plugin indent on    " required
