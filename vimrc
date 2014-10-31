@@ -13,12 +13,14 @@ Plugin 'jelera/vim-javascript-syntax'
 Plugin 'pangloss/vim-javascript'
 Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'wookiehangover/jshint.vim'
+Plugin 'elzr/vim-json'
 
 Plugin 'digitaltoad/vim-jade'
 
 Plugin 'valloric/YouCompleteMe'
 Plugin 'marijnh/tern_for_vim'
 
+Plugin 'chrisbra/csv.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
