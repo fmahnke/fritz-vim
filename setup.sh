@@ -8,6 +8,6 @@ do
   then
     echo "Will not overwrite existing ~/${var}"
   else
-    ln -s $(pwd)/${var} ~
+    cp -R ${var} ~
   fi
 done
