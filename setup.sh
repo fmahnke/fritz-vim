@@ -19,4 +19,4 @@ then
 fi
 
 echo "Cloning Vundle.vim plugin from github."
-git clone git@github.com:gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
