@@ -37,7 +37,7 @@ endif
 
 syntax enable
 
-set clipboard=unnamed
+set clipboard=unnamedplus
 set scrolloff=10
 
 set foldmethod=syntax
